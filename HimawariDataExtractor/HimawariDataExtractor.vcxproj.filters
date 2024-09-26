@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\hisd">
+      <UniqueIdentifier>{e0963d8d-9aac-4ef0-bb9a-cfa2aa7c3b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hisd">
+      <UniqueIdentifier>{28f83da4-08f1-459f-a4bd-a01c1ef6e768}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HimawariDataExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hisd\date_utl.c">
+      <Filter>Source Files\hisd</Filter>
+    </ClCompile>
+    <ClCompile Include="hisd\hisd_pixlin2lonlat.c">
+      <Filter>Source Files\hisd</Filter>
+    </ClCompile>
+    <ClCompile Include="hisd\hisd_read.c">
+      <Filter>Source Files\hisd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HimawariDataExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hisd\date_utl.h">
+      <Filter>Header Files\hisd</Filter>
+    </ClInclude>
+    <ClInclude Include="hisd\hisd.h">
+      <Filter>Header Files\hisd</Filter>
+    </ClInclude>
+    <ClInclude Include="hisd\hisd2netcdf.h">
+      <Filter>Header Files\hisd</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
